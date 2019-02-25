@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{margin:0;padding:0;}
+		.nav{
+			width:100%;
+			height:100px;
+			background:#000;
+			position:sticky;
+			top:0;
+		}
+		.nav ul{
+			width:1000px;
+			height:100px;
+			float:right;
+			list-style:none;
+			color:#fff;
+			line-height:100px;
+			padding-right:150px;
+
+		}
+		.nav ul li{
+			width:96px;
+			float:left;
+			font-size: 24px;
+			margin:0 50px;
+		}
+		.banner img{
+			width:100%;
+			display:block;
+		}
+		.footer{
+			width:100%;
+			height:100px;
+			background:#000;
+			position:sticky;
+			bottom:0;
+			
+		}
+		.footer ul{
+			width:1500px;
+			height:100px;
+			line-height:100px;
+			color:#fff;
+			font-size:24px;
+			list-style:none;
+			margin:0 auto;
+			padding-left:250px;
+
+
+		}
+		.footer ul li{
+			width:96px;
+			float:left;
+			margin:0 50px;
+			
+
+		}
+
+	</style>
+</head>
+<body>
+<div class="nav">
+        <img src="http://climg.mukewang.com/58c0d2d900016ce303000100.png">
+        <ul>
+            <li>课程</li>
+            <li>职业路径</li>
+            <li>实战</li>
+            <li>猿问</li>
+            <li>手记</li>
+        </ul>
+</div>
+<div class="banner">
+        <img src="http://climg.mukewang.com/58c0eda50001e12416000480.jpg"/>
+        <img src="http://climg.mukewang.com/58c0edb80001c9f216000480.jpg"/>
+        <img src="http://climg.mukewang.com/58c0edc9000100d516000480.jpg"/>
+</div>
+<div class="footer">
+        <ul>
+            <li>网站首页</li>
+            <li>企业合作</li>
+            <li>人才招聘</li>
+            <li>联系我们</li>
+            <li>常见问题</li>
+            <li>友情链接</li>
+        </ul>
+</div>
+
+</body>
+</html>
